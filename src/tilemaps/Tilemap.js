@@ -192,7 +192,7 @@ var Tilemap = new Class({
          * Map specific properties as specified in Tiled.
          *
          * @name Phaser.Tilemaps.Tilemap#properties
-         * @type {object}
+         * @type {object|object[]}
          * @since 3.0.0
          */
         this.properties = mapData.properties;
